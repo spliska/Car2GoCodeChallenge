@@ -4,9 +4,9 @@
 
 What do I need to run the project?
 
--Java 8
--Maven
--Selenium Grid or Standalone Server
+- Java 8
+- Maven
+- Selenium Grid or Standalone Server
 
 What is used in the project?
 
