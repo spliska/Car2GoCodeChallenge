@@ -25,7 +25,7 @@ public class Homepage extends Page {
     }
 
     public Homepage openHomePage() {
-        driver.get(url);
+        driver.get("https://www.car2go.com");
         return this;
     }
 

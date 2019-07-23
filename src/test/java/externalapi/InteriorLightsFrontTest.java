@@ -1,8 +1,8 @@
 package externalapi;
 
-import api.Api;
-import api.response.interiorlightsfront.InteriorLightsFront;
-import api.response.interiorlightsfront.InteriorLightsFrontResponse;
+import api.external.Api;
+import api.external.response.interiorlightsfront.InteriorLightsFront;
+import api.external.response.interiorlightsfront.InteriorLightsFrontResponse;
 import com.google.gson.Gson;
 import io.restassured.response.Response;
 import org.testng.Assert;

@@ -2,6 +2,7 @@
 <suite name="CodeChallengeTests" verbose="1">
     <parameter name="browser" value="chrome"/>
 
+
     <test name="Login in with valid credentials">
         <classes>
             <class name="login.LoginWithValidCredentials"/>
@@ -41,6 +42,21 @@
     <test name="Api get InteriorLightsFront">
         <classes>
             <class name="externalapi.InteriorLightsFrontTest"/>
+        </classes>
+    </test>
+    <test name="Notification">
+        <classes>
+            <class name="internalapi.NotificationCall"/>
+        </classes>
+    </test>
+    <test name="Personaldata">
+        <classes>
+            <class name="internalapi.PersonalInformation"/>
+        </classes>
+    </test>
+    <test name="EditPassword">
+        <classes>
+            <class name="internalapi.EditPassword"/>
         </classes>
     </test>
 </suite>

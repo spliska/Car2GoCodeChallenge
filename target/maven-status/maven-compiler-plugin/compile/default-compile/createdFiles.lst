@@ -1,0 +1,6 @@
+api/internal/personaldata/Body.class
+api/internal/personaldata/PersonalDataRTO.class
+api/internal/notification/Notification.class
+api/internal/personaldata/PersonalDataResponse.class
+api/internal/api/InternalApi.class
+api/internal/api/AuthenticationContainer.class

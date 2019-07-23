@@ -1,8 +1,8 @@
 package externalapi;
 
-import api.Api;
-import api.response.lightswitchposition.LightSwitchPosition;
-import api.response.lightswitchposition.LightSwitchPositionResponse;
+import api.external.Api;
+import api.external.response.lightswitchposition.LightSwitchPosition;
+import api.external.response.lightswitchposition.LightSwitchPositionResponse;
 import com.google.gson.Gson;
 import io.restassured.response.Response;
 import org.testng.Assert;
