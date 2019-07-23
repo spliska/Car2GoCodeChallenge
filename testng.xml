@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CodeChallengeTests" verbose="1">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Login in with valid credentials">
+        <classes>
+            <class name="login.LoginWithValidCredentials"/>
+        </classes>
+    </test>
+    <test name="Login with invalid credentials">
+        <classes>
+            <class name="login.LoginWithInvalidCredentials"/>
+        </classes>
+    </test>
+    <test name="Login and then logout">
+        <classes>
+            <class name="login.LoginAndThenLogout"/>
+        </classes>
+    </test>
+    <test name="Trips and Invoices">
+        <classes>
+            <class name="tripsAndInvoices.TripsAndInvoices"/>
+        </classes>
+
+    </test>
+    <test name="Edit Address">
+        <classes>
+            <class name="editUser.EditFirstAndLastName"/>
+        </classes>
+    </test>
+    <test name="Edit First and Last Name">
+        <classes>
+            <class name="editUser.EditFirstAndLastName"/>
+        </classes>
+    </test>
+    <test name="Api get LightSwitchPosition">
+        <classes>
+            <class name="externalapi.LightSwitchPositionTest"/>
+        </classes>
+    </test>
+    <test name="Api get InteriorLightsFront">
+        <classes>
+            <class name="externalapi.InteriorLightsFrontTest"/>
+        </classes>
+    </test>
+</suite>
