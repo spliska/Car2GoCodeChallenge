@@ -24,7 +24,7 @@ public class EditFirstAndLastName extends TestBase {
 
 
     @Test
-    public void goToMyDetailsAndChangeThePersonalUserData() {
+    public void goToMyDetailsAndChangeTheFirstAndLastName() {
         softAssert=new SoftAssert();
         DashboardPage dashboardPage = new DashboardPage(driver);
         dashboardPage.pageElementsAreDisplayed();

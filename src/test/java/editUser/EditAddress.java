@@ -20,7 +20,7 @@ public class EditAddress extends TestBase {
 
 
     @Test(dataProvider = "userData")
-    public void goToMyDetailsAndChangeThePersonalUserData(String newStreetAndNumber, String newPostalCode,String newCity,Integer newCountryIndex,String newCountry,String oldStreetAndNumber, String oldPostalCode,String oldCity,Integer oldCountryIndex) {
+    public void goToMyDetailsAndChangeResidenceRelatedData(String newStreetAndNumber, String newPostalCode, String newCity, Integer newCountryIndex, String newCountry, String oldStreetAndNumber, String oldPostalCode, String oldCity, Integer oldCountryIndex) {
         DashboardPage dashboardPage = new DashboardPage(driver);
         dashboardPage.pageElementsAreDisplayed();
         dashboardPage.getMainbarNavigation().openMyDetailsPage();

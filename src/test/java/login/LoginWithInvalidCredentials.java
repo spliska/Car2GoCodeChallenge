@@ -10,7 +10,7 @@ public class LoginWithInvalidCredentials extends TestBase {
 
 
     @Test(dataProvider = "invalidCredentials")
-    public void openHomepageAndClickOnLoginLinkTest(String username,String password){
+    public void attemptedLoginWithInvalidLoginData(String username, String password){
 
         Homepage page=new Homepage(driver);
         page.openHomePage().clickOnLoginLink();

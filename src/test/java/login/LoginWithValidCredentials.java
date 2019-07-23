@@ -22,7 +22,7 @@ public class LoginWithValidCredentials extends TestBase {
     }
 
     @Test(dependsOnMethods = { "openHomepageAndClickOnLoginLinkTest" })
-    public void enterUserCredentialsAndClickLoginButtonTest(){
+    public void enterUserCredentials(){
         LoginPage loginPage=new LoginPage(driver);
         loginPage.enterEmail(System.getProperty("username"))
                  .enterPassword(System.getProperty("password"));
@@ -36,8 +36,8 @@ public class LoginWithValidCredentials extends TestBase {
 
     }
 
-    @Test(dependsOnMethods = {"enterUserCredentialsAndClickLoginButtonTest"})
-    public void dashboardPageIsOpened(){
+    @Test(dependsOnMethods = {"enterUserCredentials"})
+    public void clickLoginButtonAndCheckTheDashboardPageIsOpened(){
         LoginPage loginPage= new LoginPage(driver);
         loginPage.clickLoginButton();
         DashboardPage dashboardPage=new DashboardPage(driver);

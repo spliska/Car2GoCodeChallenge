@@ -11,7 +11,7 @@ public class TripsAndInvoices extends TestBase {
 
 
     @Test
-    public void tripsAndInvoicesTest() {
+    public void tripsAndInvoicesIsEmptyTest() {
         Homepage page = new Homepage(driver);
         page.openHomePage().clickOnLoginLink();
         LoginPage loginPage = new LoginPage(driver);
