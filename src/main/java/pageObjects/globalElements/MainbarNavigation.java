@@ -1,12 +1,12 @@
-package pageObjects.globalElements;
+package pageobjects.globalelements;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.DashboardPage;
-import pageObjects.TripsAndInvoicesPage;
-import pageObjects.myDetailsPage.MyDetailsPage;
+import pageobjects.DashboardPage;
+import pageobjects.TripsAndInvoicesPage;
+import pageobjects.mydetailspage.MyDetailsPage;
 
 public class MainbarNavigation {
 

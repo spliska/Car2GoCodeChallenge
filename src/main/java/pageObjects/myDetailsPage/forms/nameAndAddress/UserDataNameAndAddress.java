@@ -1,4 +1,4 @@
-package pageObjects.myDetailsPage.forms.nameAndAddress;
+package pageobjects.mydetailspage.forms.nameandaddress;
 
 public class UserDataNameAndAddress {
     private final Integer salutationIndex;

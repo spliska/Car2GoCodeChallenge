@@ -1,10 +1,10 @@
 package login;
 
-import baseTest.TestBase;
+import basetest.TestBase;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageObjects.Homepage;
-import pageObjects.LoginPage;
+import pageobjects.Homepage;
+import pageobjects.LoginPage;
 
 public class LoginWithInvalidCredentials extends TestBase {
 

@@ -1,4 +1,4 @@
-package pageObjects.myDetailsPage.forms.nameAndAddress;
+package pageobjects.mydetailspage.forms.nameandaddress;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

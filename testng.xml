@@ -19,18 +19,18 @@
     </test>
     <test name="Trips and Invoices">
         <classes>
-            <class name="tripsAndInvoices.TripsAndInvoices"/>
+            <class name="tripsandinvoices.TripsAndInvoices"/>
         </classes>
 
     </test>
     <test name="Edit Address">
         <classes>
-            <class name="editUser.EditFirstAndLastName"/>
+            <class name="edituser.EditFirstAndLastName"/>
         </classes>
     </test>
     <test name="Edit First and Last Name">
         <classes>
-            <class name="editUser.EditFirstAndLastName"/>
+            <class name="edituser.EditFirstAndLastName"/>
         </classes>
     </test>
     <test name="Api get LightSwitchPosition">

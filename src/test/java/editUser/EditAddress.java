@@ -1,11 +1,11 @@
-package editUser;
+package edituser;
 
-import baseTest.TestBase;
+import basetest.TestBase;
 import org.testng.annotations.*;
-import pageObjects.DashboardPage;
-import pageObjects.Homepage;
-import pageObjects.myDetailsPage.MyDetailsPage;
-import pageObjects.myDetailsPage.cards.NameAndAddressCard;
+import pageobjects.DashboardPage;
+import pageobjects.Homepage;
+import pageobjects.mydetailspage.MyDetailsPage;
+import pageobjects.mydetailspage.cards.NameAndAddressCard;
 
 public class EditAddress extends TestBase {
 

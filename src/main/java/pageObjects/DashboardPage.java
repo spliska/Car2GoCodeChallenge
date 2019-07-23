@@ -1,11 +1,11 @@
-package pageObjects;
+package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pageObjects.basePage.Page;
-import pageObjects.globalElements.MainbarNavigation;
-import pageObjects.globalElements.MetabarNavigation;
+import pageobjects.basepage.Page;
+import pageobjects.globalelements.MainbarNavigation;
+import pageobjects.globalelements.MetabarNavigation;
 
 public class DashboardPage extends Page {
 

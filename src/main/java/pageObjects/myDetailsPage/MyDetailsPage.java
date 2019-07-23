@@ -1,14 +1,14 @@
-package pageObjects.myDetailsPage;
+package pageobjects.mydetailspage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pageObjects.basePage.Page;
-import pageObjects.globalElements.MainbarNavigation;
-import pageObjects.globalElements.MetabarNavigation;
-import pageObjects.myDetailsPage.cards.NameAndAddressCard;
-import pageObjects.myDetailsPage.forms.YourPasswordForm;
-import pageObjects.myDetailsPage.forms.nameAndAddress.NameAndAddressForm;
+import pageobjects.basepage.Page;
+import pageobjects.globalelements.MainbarNavigation;
+import pageobjects.globalelements.MetabarNavigation;
+import pageobjects.mydetailspage.cards.NameAndAddressCard;
+import pageobjects.mydetailspage.forms.YourPasswordForm;
+import pageobjects.mydetailspage.forms.nameandaddress.NameAndAddressForm;
 
 public class MyDetailsPage extends Page {
 

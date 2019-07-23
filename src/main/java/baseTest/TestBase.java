@@ -1,4 +1,4 @@
-package baseTest;
+package basetest;
 
 import org.openqa.selenium.Dimension;
 

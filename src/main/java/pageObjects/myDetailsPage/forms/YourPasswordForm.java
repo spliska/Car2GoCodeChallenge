@@ -1,4 +1,4 @@
-package pageObjects.myDetailsPage.forms;
+package pageobjects.mydetailspage.forms;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;

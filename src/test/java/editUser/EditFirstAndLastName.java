@@ -1,14 +1,14 @@
-package editUser;
+package edituser;
 
-import baseTest.TestBase;
+import basetest.TestBase;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pageObjects.DashboardPage;
-import pageObjects.Homepage;
-import pageObjects.LoginPage;
-import pageObjects.myDetailsPage.MyDetailsPage;
-import pageObjects.myDetailsPage.cards.NameAndAddressCard;
+import pageobjects.DashboardPage;
+import pageobjects.Homepage;
+import pageobjects.LoginPage;
+import pageobjects.mydetailspage.MyDetailsPage;
+import pageobjects.mydetailspage.cards.NameAndAddressCard;
 
 public class EditFirstAndLastName extends TestBase {
     @BeforeMethod

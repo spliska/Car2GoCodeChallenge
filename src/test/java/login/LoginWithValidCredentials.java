@@ -1,10 +1,10 @@
 package login;
 
-import baseTest.TestBase;
+import basetest.TestBase;
 import org.testng.annotations.Test;
-import pageObjects.DashboardPage;
-import pageObjects.Homepage;
-import pageObjects.LoginPage;
+import pageobjects.DashboardPage;
+import pageobjects.Homepage;
+import pageobjects.LoginPage;
 
 public class LoginWithValidCredentials extends TestBase {
 

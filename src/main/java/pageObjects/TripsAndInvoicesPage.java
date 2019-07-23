@@ -1,11 +1,11 @@
-package pageObjects;
+package pageobjects;
 
-import pageObjects.myDetailsPage.MyDetailsPage;
+import pageobjects.mydetailspage.MyDetailsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import pageObjects.basePage.Page;
+import pageobjects.basepage.Page;
 
 public class TripsAndInvoicesPage extends Page {
 

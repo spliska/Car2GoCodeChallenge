@@ -1,4 +1,4 @@
-package pageObjects.myDetailsPage.cards;
+package pageobjects.mydetailspage.cards;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.myDetailsPage.forms.nameAndAddress.UserDataNameAndAddress;
+import pageobjects.mydetailspage.forms.nameandaddress.UserDataNameAndAddress;
 
 import java.util.List;
 

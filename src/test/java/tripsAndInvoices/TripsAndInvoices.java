@@ -1,11 +1,11 @@
-package tripsAndInvoices;
+package tripsandinvoices;
 
-import baseTest.TestBase;
+import basetest.TestBase;
 import org.testng.annotations.Test;
-import pageObjects.DashboardPage;
-import pageObjects.Homepage;
-import pageObjects.LoginPage;
-import pageObjects.TripsAndInvoicesPage;
+import pageobjects.DashboardPage;
+import pageobjects.Homepage;
+import pageobjects.LoginPage;
+import pageobjects.TripsAndInvoicesPage;
 
 public class TripsAndInvoices extends TestBase {
 

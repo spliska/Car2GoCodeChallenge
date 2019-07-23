@@ -1,9 +1,9 @@
-package pageObjects;
+package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pageObjects.basePage.Page;
+import pageobjects.basepage.Page;
 
 public class LoginPage extends Page {
 
