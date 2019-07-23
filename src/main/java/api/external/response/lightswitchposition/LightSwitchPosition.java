@@ -1,4 +1,4 @@
-package api.response.lightswitchposition;
+package api.external.response.lightswitchposition;
 
 public class LightSwitchPosition {
     private final String value;

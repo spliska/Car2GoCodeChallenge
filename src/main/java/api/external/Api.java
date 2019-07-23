@@ -1,4 +1,4 @@
-package api;
+package api.external;
 
 import io.restassured.response.Response;
 

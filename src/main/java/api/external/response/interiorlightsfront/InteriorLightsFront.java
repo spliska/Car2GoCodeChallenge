@@ -1,4 +1,4 @@
-package api.response.interiorlightsfront;
+package api.external.response.interiorlightsfront;
 
 public class InteriorLightsFront {
 
